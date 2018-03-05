@@ -36,6 +36,7 @@ html body * {
 
 .Header-logo_spbf {
   margin-left: 40px;
+  /* width: 168px; */
 }
 
 .Header-title {
@@ -142,7 +143,6 @@ html body * {
   height: 280px;
   margin-bottom: 20px;
   flex-grow: 1;
-  object-fit: cover;
 }
 
 .Body-images {
