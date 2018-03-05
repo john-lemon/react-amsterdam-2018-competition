@@ -64,7 +64,7 @@ html body * {
   top: 0;
   left: 0;
   z-index: 0;
-  background: url('./overlay_bg.min.svg') 50% rgba(0, 0, 0, .4);
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0IiBoZWlnaHQ9IjQiPjxwYXRoIGZpbGwtb3BhY2l0eT0iLjQiIGQ9Ik0wIDBoMnYySDB6TTIgMmgydjJIMnoiLz48L3N2Zz4=) 50% rgba(0, 0, 0, .4);
 }
 
 .Header-wrapper {
