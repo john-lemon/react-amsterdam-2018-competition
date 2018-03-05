@@ -8,10 +8,10 @@
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
-    <link rel="stylesheet" href="%PUBLIC_URL%/main.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="fonts/font.css">
+    <link rel="stylesheet" href="style.css">
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -21,8 +21,8 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>SPB Frontend Competition</title>
 
+    <title>SPB Frontend Competition</title>
   </head>
   <body>
       <style>
@@ -36,9 +36,9 @@
           muted
           autoPlay
           loop
-          poster="https://react.amsterdam/img/dummy_bg.jpg"
+          poster="dummy_bg.jpg"
           id="bgvid">
-          <source src="https://react.amsterdam/video/video-.webm" type="video/webm" />
+          <source src="https://react.amsterdam/video/video.webm" type="video/webm" />
           <source src="https://react.amsterdam/video/video.mp4" type="video/mp4" />
         </video>
 
@@ -46,8 +46,8 @@
 
         <div class="Header-wrapper">
           <div class="Header-logos">
-            <img src="/ralogo.svg" class="Header-logo Header-logo_ral" alt="React Amsterdam Logo" />
-            <img src="/spbflogo.svg" class="Header-logo Header-logo_spbf" alt="SPB Frontend Logo" />
+            <img src="ralogo.svg" class="Header-logo Header-logo_ral" alt="React Amsterdam Logo" />
+            <img src="spbflogo.svg" class="Header-logo Header-logo_spbf" alt="SPB Frontend Logo" />
           </div>
           <h1 class="Header-title">SPB Frontend & React Amsterdam Competition</h1>
         </div>
@@ -63,17 +63,20 @@
               the globe in the tech heart of Europe. We're coming back with a new gig on <strong>April 13, 2018</strong>.
               Mark your calendars for the biggest React community event.
               <br />
-              Same as last year, day before the main event, we'll host a{' '}
+              Same as last year, day before the main event, we'll host
               <a href="https://react.amsterdam/workshops">training day</a>, with three workshops on advanced React and
               State Management as well as a crash course on React Native.
             </p>
             <div class="Body-images">
-              <img src="%PUBLIC_URL%/01.jpg" class="Body-img" alt="01" />
-              <img src="%PUBLIC_URL%/02.jpg" class="Body-img" alt="02" />
-              <img src="%PUBLIC_URL%/03.jpg" class="Body-img" alt="03" />
+              <img src="01.png" class="Body-img" alt="01" />
+              <img src="02.png" class="Body-img" alt="02" />
+              <img src="03.png" class="Body-img" alt="03" />
             </div>
           </div>
         </div>
+        <footer class="Footer-footer">
+          <a href="//spb-frontend.ru">SPB Frontend 2018</a>
+        </footer>
 
     <!-- <div id="root"></div> -->
     <!--
@@ -86,5 +89,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
   </body>
 </html>
